@@ -1,0 +1,25 @@
+Controls:
+
+character movement:
+
+camera direction - mouse motion (the mouse movement is inverted);
+a - left
+d - right
+w - foward
+s - backward
+e - get in the car (if near enough)
+space - jump
+
+///////////////
+car movement:
+
+camera direction - mouse motion (the mouse movement is inverted);
+w - foward
+s - backward
+e - get out from the car (if near enough)
+
+////////////////
+camera index
+u - change the camera;
+
+esc - close application
