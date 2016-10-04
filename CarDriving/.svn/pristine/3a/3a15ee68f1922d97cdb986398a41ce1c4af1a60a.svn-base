@@ -1,0 +1,13 @@
+SOURCES = main.cpp glm_mod.c SOIL.c image_helper.c image_DXT.c stb_image_aug.c
+
+MAC_GL_OPTIONS= -framework OpenGL -framework GLUT 
+LINUX_GL_OPTIONS= -Wall -lGLEW -lglut -lGL
+
+GL_OPTIONS = $(LINUX_GL_OPTIONS)  
+#GL_OPTIONS = $(MAC_GL_OPTIONS)  -framework CoreFoundation  SOIL.o image_helper.o image_DXT.o stb_image_aug.o
+
+execute:compile
+	./speedRacer
+
+compile: $(SOURCES)
+	g++ $(GL_OPTIONS) $(SOURCES) -o speedRacer
