@@ -1,7 +1,7 @@
 # simpleProjectsOpenGL
 My personal sandbox for code development using OpenGL.
 
-*Dependencies </br>
+Dependencies: </br>
 sudo apt-get update </br>
 sudo apt-get install libgl1-mesa-dev </br>
 sudo apt-get update </br>
